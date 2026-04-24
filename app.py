@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 
 st.set_page_config(page_title="Finance Dashboard", layout="wide")
@@ -19,7 +18,6 @@ st.sidebar.markdown("---")
 st.sidebar.info("Dashboard FinanceCore")
 
 st.write("👈 Choisir une page dans le menu à gauche")
-=======
 #KPIs en cartes : Volume total transactions, CA total, Nombre de clients actifs, Marge moyenne
 
 import streamlit as st
@@ -279,4 +277,3 @@ st.download_button(
     file_name="donnees_filtrees.csv",
     mime="text/csv"
 )
->>>>>>> 18e9eb2 (commit 2)
